@@ -24,7 +24,9 @@ export default function Introduction() {
                 <title>Icon Captcha | Introduction</title>
                 <meta name="description" content="Icon captcha aims to be an easy to use captcha service for forms." />
             </Head>
-            <ReactMarkdown children={markdown}/>
+            <ReactMarkdown>
+                {markdown}
+            </ReactMarkdown>
         </>
     )
 }
